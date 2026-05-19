@@ -149,11 +149,7 @@ Task4-Data-Storytelling/
 │
 ├── outputs/
 │   ├── charts/
-│   └── reports/
-│
-├── dashboard/
-│   └── adidas_dashboard.pbix
-│
+│   
 ├── presentation/
 │   └── final_presentation.pptx
 │
@@ -195,8 +191,3 @@ This project successfully combined exploratory data analysis, storytelling, dash
 
 The findings demonstrate how analytics can support strategic planning and data-driven business decisions.
 
-🔗 Author
-
-Rakshitha K
-
-Virtual Internship Project – Data Analytics
