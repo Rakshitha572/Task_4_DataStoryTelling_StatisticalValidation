@@ -1,120 +1,138 @@
 # 📊 Data Storytelling & Statistical Validation using Adidas Sales Dataset
 
 ## 📌 Project Overview
-This project focuses on transforming raw Adidas sales data into meaningful business insights through data storytelling, statistical validation, and visualization techniques.
+This project focuses on transforming Adidas sales data into meaningful business insights through data storytelling, visualization, and statistical validation techniques.
 
-The project was completed as part of a **Virtual Internship in Data Analytics** and demonstrates how analytical findings can support business decision-making.
-
----
-
-# 🎯 Objectives
-- Perform business-focused storytelling using data insights
-- Validate analytical findings using statistical testing
-- Identify trends, patterns, and relationships in sales data
-- Present actionable recommendations for business growth
-- Build a professional analytical presentation
+The analysis was performed as part of a **Virtual Internship in Data Analytics** to demonstrate how data-driven approaches can support business decision-making and strategy development.
 
 ---
 
-# 🛠️ Tools & Technologies Used
+# 🎯 Project Objectives
+
+- Analyze Adidas sales performance across regions and products
+- Identify important business trends and patterns
+- Perform statistical validation on business findings
+- Build meaningful business stories using data insights
+- Provide actionable recommendations for business improvement
+
+---
+
+# 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - SciPy
+- Jupyter Notebook
 - Power BI
 - VS Code
-- Jupyter Notebook
 
 ---
 
-# 📂 Dataset
+# 📂 Dataset Information
+
 Dataset Used: **Adidas Sales Dataset**
 
-The dataset includes:
+The dataset contains:
 - Product Information
-- Retailer Details
 - Regional Sales Data
+- Retailer Details
+- Invoice Dates
 - Total Sales
 - Operating Profit
 - Units Sold
-- Invoice Dates
+- Operating Margin
 
 ---
 
-# 📊 Project Workflow
+# 📊 Analysis Workflow
 
-## ✅ Data Preparation
-- Data loading
-- Data cleaning
-- Missing value handling
-- Data understanding
+## ✅ 1. Data Understanding
+- Dataset inspection
+- Data type checking
+- Missing value analysis
+- Statistical summary
 
-## ✅ Exploratory Data Analysis
-- Regional sales analysis
-- Product performance analysis
-- Sales trend analysis
-- Profitability analysis
+## ✅ 2. KPI Analysis
+The following KPIs were analyzed:
+- Total Sales
+- Total Profit
+- Units Sold
+- Average Operating Margin
 
-## ✅ Data Storytelling
-The analysis was converted into meaningful business narratives to explain:
-- What happened
-- Why it happened
-- What actions businesses should take
+## ✅ 3. Regional Sales Analysis
+Analyzed sales performance across different regions to identify high-performing markets.
 
-## ✅ Statistical Validation
-Statistical methods were applied to validate business findings:
+## ✅ 4. Product Performance Analysis
+Evaluated product-wise sales contribution and profitability.
+
+## ✅ 5. Monthly Sales Trend Analysis
+Identified seasonal sales patterns and business growth trends.
+
+## ✅ 6. Profitability Analysis
+Compared operating profit across different business regions.
+
+## ✅ 7. Statistical Validation
+Performed:
 - T-Test
 - Chi-Square Test
+
+to validate business insights statistically.
 
 ---
 
 # 📈 Key Insights
 
 - Footwear products generated the highest revenue.
-- West region showed the strongest sales performance.
-- Sales exhibited seasonal growth patterns.
-- High sales strongly influenced profitability.
+- West region contributed the maximum sales and profit.
+- Sales showed seasonal growth patterns.
+- Higher sales strongly influenced profitability.
 - Product demand varied significantly across regions.
 
 ---
 
-# 🧪 Statistical Testing Performed
+# 🧪 Statistical Testing
 
 ## 📌 T-Test
-Used to determine whether sales differences between regions were statistically significant.
-
 ### Business Question:
-> Do West and Northeast regions have significantly different sales performance?
+Do West and Northeast regions have significantly different sales performance?
+
+### Result:
+- P-value < 0.05
+- Indicates statistically significant sales differences between regions.
 
 ---
 
 ## 📌 Chi-Square Test
-Used to identify relationships between categorical variables.
-
 ### Business Question:
-> Is there an association between Region and Product preference?
+Is there a relationship between Region and Product preference?
+
+### Result:
+- P-value < 0.05
+- Indicates a significant relationship between product demand and region.
 
 ---
 
 # 💡 Business Recommendations
 
-- Increase focus on high-performing footwear products
-- Strengthen sales operations in profitable regions
-- Improve seasonal marketing campaigns
+- Focus more on high-performing footwear products
+- Strengthen business operations in profitable regions
+- Improve seasonal marketing strategies
 - Expand retailer partnerships
-- Use analytics for targeted customer strategies
+- Use analytics-driven decision-making approaches
 
 ---
 
 # 📊 Dashboard & Visualization
+
 The project also includes:
 - Interactive Power BI Dashboard
-- KPI Analysis
-- Trend Visualizations
-- Regional Performance Charts
-- Product Analysis
+- KPI Visualizations
+- Regional Sales Charts
+- Product Performance Graphs
+- Monthly Sales Trend Analysis
 
 ---
 
@@ -127,7 +145,11 @@ Task4-Data-Storytelling/
 │   └── adidas_sales.csv
 │
 ├── notebooks/
-│   └── statistical_validation.ipynb
+│   └── task4_analysis.ipynb
+│
+├── outputs/
+│   ├── charts/
+│   └── reports/
 │
 ├── dashboard/
 │   └── adidas_dashboard.pbix
@@ -135,47 +157,43 @@ Task4-Data-Storytelling/
 ├── presentation/
 │   └── final_presentation.pptx
 │
-├── outputs/
-│   └── charts/
-│
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
+
 
 🚀 How to Run the Project
 1️⃣ Clone Repository
-git clone https://github.com/your-username/repository-name.git
-2️⃣ Install Dependencies
+git clone  https://github.com/Rakshitha572/Task_3_DataStoryTelling_StatisticalValidation.git
+2️⃣ Install Required Libraries
 pip install -r requirements.txt
 3️⃣ Launch Jupyter Notebook
 jupyter notebook
 
 Open:
 
-statistical_validation.ipynb
-🎥 Project Demonstration
-
-A complete walkthrough video demonstrating:
-
-Data storytelling
-Statistical testing
-Dashboard insights
-Business conclusions
-
-was also created as part of the internship deliverables.
-
+task4_analysis.ipynb
+🎥 Project Deliverables
+Jupyter Notebook
+Power BI Dashboard
+PowerPoint Presentation
+GitHub Repository
+Screen Recording Demonstration
 📚 Learning Outcomes
 
 Through this project, I improved my skills in:
 
-Data Analytics
-Business Intelligence
-Statistical Analysis
+Data Analysis
 Data Visualization
+Statistical Validation
+Business Intelligence
 Dashboard Development
 Business Storytelling
+Decision-Making using Analytics
 📌 Conclusion
 
-This project demonstrates how data analytics and statistical validation can be combined to transform raw data into actionable business insights and strategic recommendations.
+This project successfully combined exploratory data analysis, storytelling, dashboarding, and statistical testing to uncover meaningful business insights from Adidas sales data.
+
+The findings demonstrate how analytics can support strategic planning and data-driven business decisions.
 
 🔗 Author
 
